@@ -10,6 +10,8 @@
 
 **Placement Prediction** is an interactive web-based Data Science Lab designed to demonstrate how a machine-learning workflow can be implemented as an end-to-end application.
 
+A hands-on Data Science Lab that I built to demonstrate the complete machine learning workflow, from exploring and cleaning student data to training a Logistic Regression model and making predictions.
+
 The project takes users through six stages:
 
 **Raw Data → Data Cleaning → Data Analysis → Visualization → Machine Learning → Prediction**
