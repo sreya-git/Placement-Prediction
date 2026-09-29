@@ -1,6 +1,6 @@
 # 📊 Placement Prediction
 
-A simple interactive Data Science project that demonstrates the complete machine learning workflow, from data cleaning and analysis to model training and prediction.
+An interactive **Data Science Lab** that I built to explore the complete machine learning workflow — from cleaning and analyzing student data to training a model and making predictions.
 
 ## 🚀 Live Demo
 
@@ -8,29 +8,27 @@ A simple interactive Data Science project that demonstrates the complete machine
 
 ## 📌 About
 
-A hands-on Data Science Lab that I built to demonstrate the complete machine learning workflow, from exploring and cleaning student data to training a Logistic Regression model and making predictions.
+This project demonstrates a simple end-to-end machine learning workflow using student placement data.
 
-The project takes a student dataset through these steps:
+The application takes users through six stages:
 
-**Raw Data → Cleaning → Analysis → Visualization → Machine Learning → Prediction**
+**Raw Data → Data Cleaning → Data Analysis → Visualization → Machine Learning → Prediction**
 
-Instead of showing only the final prediction, the application lets users explore the different stages of the process.
+Instead of showing only the final prediction, the project lets users see what happens at each stage.
 
 ## ✨ Features
 
-* 📂 Explore a dataset of 150 student records
+* 📂 Explore **150 student records**
 * 🧹 Remove duplicates and handle missing values
 * 🔎 Perform basic data analysis
-* 📈 View interactive charts
-* 🤖 Train a Logistic Regression model
-* 📊 Check model accuracy and confusion matrix
+* 📈 View interactive visualizations
+* 🤖 Train a **Logistic Regression** model
+* 📊 View model accuracy and confusion matrix
 * 🎯 Make a placement prediction using student details
 
 ## 🧠 Machine Learning
 
 The project uses **Logistic Regression** for binary classification.
-
-The basic workflow is:
 
 ```text
 Dataset
@@ -50,6 +48,8 @@ Prediction
 
 The model uses an **80/20 train-test split**.
 
+The machine learning logic is implemented in **TypeScript**, without a separate Python backend.
+
 ## 🛠️ Tech Stack
 
 * **Next.js**
@@ -60,46 +60,7 @@ The model uses an **80/20 train-test split**.
 * **Git & GitHub**
 * **Vercel**
 
-The machine learning logic is implemented in **TypeScript**, without a separate Python backend.
-
 ## 📁 Project Structure
-
-```text
-Placement-Prediction/
-│
-├── app/
-├── components/
-├── lib/
-├── supabase/
-├── public/
-├── README.md
-└── package.json
-```
-
-## 💻 Run Locally
-
-```bash
-git clone https://github.com/sreya-git/Placement-Prediction.git
-cd Placement-Prediction
-npm install
-npm run dev
-```
-
-Then open:
-
-```text
-http://localhost:3000
-```
-
-## 🔮 Future Improvements
-
-* Add more ML algorithms
-* Compare different models
-* Add more evaluation metrics
-* Improve the dataset
-* Add a Python/scikit-learn ML version
-
-* ## 📁 Project Structure
 
 ```text
 Placement-Prediction/
@@ -128,6 +89,43 @@ Placement-Prediction/
 ├── README.md
 └── package.json
 ```
+
+* **app/** — pages and API routes
+* **components/** — reusable UI components
+* **lib/** — analytics, data processing and ML logic
+* **supabase/** — database schema and seed data
+* **public/** — static files
+
+## 💻 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sreya-git/Placement-Prediction.git
+cd Placement-Prediction
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000` in your browser.
+
+## 🔮 Future Improvements
+
+* Add more ML algorithms
+* Compare different models
+* Add more evaluation metrics
+* Improve the dataset
+* Add a Python/scikit-learn version
 
 ## 👩‍💻 Author
 
